@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Genero]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Nome] VARCHAR(100) NOT NULL
+)

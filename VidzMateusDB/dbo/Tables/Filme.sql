@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Filme]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Nome] VARCHAR(200) NOT NULL, 
+    [Id_Genero] INT NOT NULL FOREIGN KEY REFERENCES Genero (Id)
+)
